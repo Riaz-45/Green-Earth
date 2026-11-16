@@ -15,7 +15,7 @@
 <body class="mx-auto">
     <!-- Header Section -->
     <header>
-        <div class="navbar bg-[#15803D] shadow-sm px-28">
+        <div class="navbar bg-[#15803D] shadow-sm lg:px-28">
             <div class="navbar-start">
                 <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@
                     <li><a>Plant a tree</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end lg:navbar-end">
                 <button class="btn bg-[#FACC15] text-[#15803D] border-none rounded-full">Plant a tree</button>
             </div>
         </div>
@@ -70,9 +70,9 @@
     <!-- body section -->
     <section class="bg-[#F0FDF4] py-[100px]">
         <!-- Choose your tree -->
-        <div class="mx-auto max-w-[1650px] px-30">
+        <div class="mx-auto max-w-[1650px] px-10 lg:px-30">
             <h2 class="font-bold text-2xl text-center mb-10">Choose Your Trees</h2>
-            <div class="grid grid-cols-[1fr_5fr_1fr] gap-6 items-start">
+            <div class="grid grid-cols-1 justify-center md:grid-cols-[1fr_5fr] lg:grid-cols-[1fr_5fr_1fr] gap-6 items-start">
                 
                 <!-- Categories-container -->
                 <div id="categories-container">
@@ -82,7 +82,7 @@
                 </div>
 
                 <!-- allPlants-container -->
-                <div id="allPlants-container" class="grid grid-cols-3 gap-6 content-start">
+                <div id="allPlants-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 content-start">
                     <!-- AllPlants will load here -->
 
 
@@ -97,10 +97,10 @@
         <!-- About the campaign -->
         <div class="py-[100px]">
             <h2 class="font-bold text-2xl text-center">About The Campaign</h2>
-            <div class="flex flex-col lg:flex-row justify-center items-center gap-8 mt-[40px] lg:max-w-[1090px] lg:max-h-[610px] mx-auto">
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-8 mt-[40px] lg:max-w-[1090px] lg:max-h-[610px] mx-5 md:mx-auto">
                 <img src="./assets/about.png" alt="">
                 <div>
-                    <p class="md:mb-5 text-[#1F2937] text-left">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+                    <p class="mb-5 md:mb-5 text-[#1F2937] text-left">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
                     <ul class="list-disc pl-5 text-[#1F2937]">
                         <li>Restoration of natural habitats</li>
                         <li>Improvement of air quality</li>
