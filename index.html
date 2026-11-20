@@ -136,10 +136,15 @@
     <section class="bg-[#166534]">
         <div class="py-[100px]">
             <h2 class="font-semibold text-3xl text-center text-white mb-10">Plant a Tree Today</h2>
-            <div class="bg-[#15803D] rounded-xl p-10 mx-auto md:max-w-[635px] flex flex-col justify-center items-center">
+            <div class="bg-[#15803D] rounded-xl p-10 mx-5 sm:mx-6 md:mx-auto lg:mx-auto md:max-w-[635px] flex flex-col justify-center items-center">
                 <input class="bg-white rounded text-[#1F2937] border-none w-full p-3 mb-3" type="text" placeholder="Your Name">
                 <input class="bg-white rounded text-[#1F2937] border-none w-full p-3 mb-3" type="email" placeholder="Your Email Address" id="">
-                <input class="bg-white rounded text-[#1F2937] border-none w-full p-3 mb-3" type="text">
+                <select class="bg-white rounded text-[#1F2937] border-none w-full p-3 mb-3" name="tree" id="">
+                    <option class="" value="" selected disabled>Number of Trees</option>
+                    <option value="1">1 Tree</option>
+                    <option value="2">2 Trees</option>
+                    <option value="3">3 Trees</option>
+                </select>
                 <button class="btn bg-[#FACC15] rounded-full text-[#15803D] border-none w-full p-3 mb-3">Download Now</button>
             </div>
         </div>
